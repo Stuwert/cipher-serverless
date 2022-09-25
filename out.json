@@ -1,0 +1,4 @@
+{
+  "statusCode": 200,
+  "body": "{\"message\":\"Hello Stuart, welcome to the exciting Serverless world!\",\"event\":{\"body\":{\"name\":\"Stuart\"}}}"
+}
