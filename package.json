@@ -5,7 +5,8 @@
   "main": "serverless.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "yarn sls offline --reloadHandler"
+    "dev": "yarn sls offline --reloadHandler",
+    "invoke:hello": "yarn sls invoke local --function hello"
   },
   "engines": {
     "node": ">=14.15.0"
