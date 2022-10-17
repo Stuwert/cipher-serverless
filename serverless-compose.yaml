@@ -1,0 +1,7 @@
+# serverless-compose.yml
+services:
+  players:
+    path: services/players
+
+  games:
+    path: services/games
