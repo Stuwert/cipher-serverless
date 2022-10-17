@@ -1,9 +1,10 @@
 import type { AWS } from "@serverless/typescript";
 
 import hello from "@functions/hello";
+import health from "@functions/health";
 
 const serverlessConfiguration: AWS = {
-  service: "cipher",
+  service: "games",
   frameworkVersion: "3",
   plugins: ["serverless-esbuild", "serverless-offline"],
   provider: {
@@ -19,7 +20,7 @@ const serverlessConfiguration: AWS = {
     },
   },
   // import the function via paths
-  functions: { hello },
+  functions: { hello, health },
   package: { individually: true },
   custom: {
     esbuild: {
