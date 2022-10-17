@@ -1,14 +1,10 @@
 {
-  "exclude": ["**/tests/**", "**/dist/**"],
+  "exclude": ["**/tests/**", "**/dist/**", "**/node_modules"],
+  "include": [],
+  "files": [],
   "references": [
     {
       "path": "./packages/cipher-test-orm"
-    },
-    {
-      "path": "./services/games"
-    },
-    {
-      "path": "./services/players"
     }
   ]
 }
